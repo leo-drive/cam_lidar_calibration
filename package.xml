@@ -25,6 +25,8 @@
   <depend>rviz</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_eigen</build_depend>
 
   <export>
     <nodelet plugin="${prefix}/nodelet_definition.xml"/>
