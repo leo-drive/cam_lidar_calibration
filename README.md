@@ -17,16 +17,16 @@ We also provide a [video tutorial](https://youtu.be/WmzEnjmffQU) for this packag
 # 1. Getting started
 ## 1.1 Installation 
 
-This package has only been tested in ROS Melodic. 
+This package has only been tested in ROS Noetic. 
 
 ### Local ROS 
 1. Clone the repository in your `catkin_ws/src/` folder
 ```
-git clone -c http.sslverify=false https://gitlab.acfr.usyd.edu.au/its/cam_lidar_calibration.git
+git clone https://github.com/leo-drive/cam_lidar_calibration.git
 ```
 2. Download ros and python dependencies 
 ```
-sudo apt update && sudo apt-get install -y ros-melodic-pcl-conversions ros-melodic-pcl-ros ros-melodic-tf2-sensor-msgs
+sudo apt update && sudo apt-get install -y ros-noetic-pcl-conversions ros-noetic-pcl-ros ros-noetic-tf2-sensor-msgs
 pip install pandas scipy
 ```
 3. Build the package and source the `setup.bash` or `setup.zsh` file. 
