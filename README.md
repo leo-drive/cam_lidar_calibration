@@ -31,7 +31,8 @@ pip install pandas scipy
 ```
 3. Build the package and source the `setup.bash` or `setup.zsh` file. 
 ```
-catkin build cam_lidar_calibration
+cd ~/catkin_ws
+catkin_make
 source ~/catkin_ws/devel/setup.bash 
 ```
 
